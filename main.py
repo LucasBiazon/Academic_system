@@ -122,7 +122,7 @@ class Server:
         for aluno in self.alunos:
             if str(aluno.uuid) == aluno_uuid:
                 for disciplina in aluno.disciplinas:
-                    print(f"- {disciplina.nome}")
+                    print(f"- {disciplina}")
 
                 disciplina_nome = input("Digite o nome da disciplina: ")
 
